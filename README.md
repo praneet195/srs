@@ -1,5 +1,14 @@
 # Simple-RTMP-Server
 
+***ADDED COFFEE RTSP SERVER SUPPORT TO ALLOW PIPING RTSP STREAMS***
+
+* Install SRS with the instructions provided in the SRS git.
+* Ensure SRS is built with nginx t support HLS.
+* After a successful build, follow the instructions provided at the link https://github.com/iizukanao/node-rtsp-rtmp-server.
+* Ensure RTMP and HTTP servers are disabled in the coffee.config file. Start only required rtsp server.
+* Start SRS with the conf rtsp_hls_rtmp.conf.
+* Stream will now be available in all 3 formats.
+___________________________________________________________________________________________________________________________
 [![CircleCI](https://circleci.com/gh/ossrs/srs/tree/2.0release.svg?style=svg)](https://circleci.com/gh/ossrs/srs/tree/2.0release)
 [![Wechat](https://cloud.githubusercontent.com/assets/2777660/22814959/c51cbe72-ef92-11e6-81cc-32b657b285d5.png)](https://github.com/ossrs/srs/wiki/v1_CN_Contact#wechat)
 [<img width="52" alt="Skype" src="https://cloud.githubusercontent.com/assets/2777660/24329166/3821a328-1230-11e7-844a-506a5d17dd3d.png">](https://github.com/ossrs/srs/wiki/v1_EN_Contact#skype-or-gitter)
