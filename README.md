@@ -8,6 +8,7 @@
 * Ensure RTMP and HTTP servers are disabled in the coffee.config file. Start only required rtsp server.
 * Start SRS with the conf rtsp_hls_rtmp.conf.
 * Stream will now be available in all 3 formats.
+**My coffee.config starts an RTSP server at the port 3101. Modify the rtsp_hls_rtmp.conf as per your streams to get all three streams**
 ___________________________________________________________________________________________________________________________
 [![CircleCI](https://circleci.com/gh/ossrs/srs/tree/2.0release.svg?style=svg)](https://circleci.com/gh/ossrs/srs/tree/2.0release)
 [![Wechat](https://cloud.githubusercontent.com/assets/2777660/22814959/c51cbe72-ef92-11e6-81cc-32b657b285d5.png)](https://github.com/ossrs/srs/wiki/v1_CN_Contact#wechat)
